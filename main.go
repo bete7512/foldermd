@@ -155,7 +155,7 @@ func generateReadme(config Config) error {
 
 	// Write header with more details
 	fmt.Fprintf(file, "# %s\n\n", projectName)
-	fmt.Fprintf(file, "> Generated with [foldermd](https://github.com/yourusername/foldermd) on %s\n\n", time.Now().Format("2006-01-02 15:04:05"))
+	fmt.Fprintf(file, "> Generated with [foldermd](https://github.com/bete7512/foldermd) on %s\n\n", time.Now().Format("2006-01-02 15:04:05"))
 	
 	// Add basic project info
 	writeProjectInfo(file, config.targetDir)
