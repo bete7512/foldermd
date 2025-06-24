@@ -4,7 +4,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.19-blue)](https://golang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/yourusername/foldermd)](https://github.com/yourusername/foldermd/releases)
+[![Release](https://img.shields.io/github/v/release/bete7512/foldermd)](https://github.com/bete7512/foldermd/releases)
 
 Transform any project directory into a comprehensive, well-structured README with just one command. Perfect for documenting codebases, project structures, and creating professional documentation.
 
@@ -26,13 +26,13 @@ Transform any project directory into a comprehensive, well-structured README wit
 
 #### Using Go Install (Go 1.16+)
 ```bash
-go install github.com/yourusername/foldermd@latest
+go install github.com/bete7512/foldermd@latest
 ```
 
 #### Download Pre-built Binaries
 ```bash
 # Download latest release for your platform
-curl -L https://github.com/yourusername/foldermd/releases/latest/download/foldermd-linux-amd64 -o foldermd
+curl -L https://github.com/bete7512/foldermd/releases/latest/download/foldermd-linux-amd64 -o foldermd
 chmod +x foldermd
 sudo mv foldermd /usr/local/bin/
 ```
@@ -46,7 +46,7 @@ sudo mv foldermd /usr/local/bin/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/foldermd.git
+git clone https://github.com/bete7512/foldermd.git
 cd foldermd
 
 # Install dependencies
@@ -63,7 +63,7 @@ sudo mv foldermd /usr/local/bin/
 
 ```bash
 # Add tap (coming soon)
-brew tap yourusername/tools
+brew tap bete7512/tools
 brew install foldermd
 ```
 
